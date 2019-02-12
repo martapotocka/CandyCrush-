@@ -1,0 +1,14 @@
+# Please adapt and uncomment the following lines:
+        name =  Marta Potocka
+        email = marta.m.potocka@gmail.com
+[alias]
+        mylog = log --oneline --graph --all --decorate -20
+        blog = log --oneline --decorate -20
+        myloga = "log --graph --all --pretty=format:'%C(Yellow)%h%Creset %C(magenta)%an%Creset %s' -20"
+        bloga = "log --pretty=format:'%C(Yellow)%h%Creset %C(magenta)%an%Creset %s' -20"
+[credential]
+        helper = wincred
+[pull]
+        rebase = true
+[rebase]
+        autosquash = true
